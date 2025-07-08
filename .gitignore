@@ -1,0 +1,94 @@
+# Arquivos de Build/Compilação
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+*.dll
+*.pdb
+*.exe
+*.o
+*.lo
+*.la
+*.gcno
+*.gcov
+*.user
+*.suo
+*.sln.docstates
+*.log
+*.vspscc
+*.vssscc
+*.builds
+*.lib
+*.ncb
+*.sql
+*.doc
+*.xml
+*.cache
+*.designer.cs
+*.resx
+
+# Pacotes NuGet
+packages/
+*.nupkg
+# Excluir o cache global de pacotes NuGet, pois é específico do usuário
+!/packages/*/
+!/packages/*/.DS_Store
+!/packages/*/.gitkeep
+
+# Ferramentas e IDEs (Visual Studio / VS Code)
+.vs/                  # Pasta oculta do Visual Studio
+*.csproj.user
+*.sln.ide
+*.resharper
+*.resharper.user
+*.dotsettings
+*.suo
+*.user
+*.opensdf
+*.VC.db
+.vsconfig
+
+# Arquivos de Teste
+TestResults/
+*.trx
+
+# Arquivos do Sistema Operacional
+.DS_Store             # macOS
+Thumbs.db             # Windows
+desktop.ini           # Windows
+.localized            # macOS
+
+# Arquivos de Configuração de Usuário (com informações sensíveis ou específicas da máquina)
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+appsettings.json.user
+*.cscfg
+*.pubxml
+*.runsettings
+*.user
+*.editorconfig          # Pode ser incluído se for padrão para o projeto
+*.bak
+
+# Ferramentas de CI/CD (se não forem versionadas)
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# Outros
+*.ipch
+.vcproj.filters
+*.sdf
+*.vshost.*
+.npm/
+npm-debug.log
+yarn-error.log
+.yarn-integrity
+*.pid
+*.ps1
+*.psd1
+*.psm1
+
+# Arquivos gerados por ferramentas específicas
+node_modules/         # Se houver frontend no projeto .NET
