@@ -93,3 +93,4 @@ yarn-error.log
 # Arquivos gerados por ferramentas específicas
 node_modules/         # Se houver frontend no projeto .NET
 obj/
+.vscode/
