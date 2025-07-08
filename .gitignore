@@ -27,7 +27,7 @@
 *.cache
 *.designer.cs
 *.resx
-
+bin/
 # Pacotes NuGet
 packages/
 *.nupkg

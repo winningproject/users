@@ -45,3 +45,4 @@ C:\Users\guilh\Documents\workspace\Users\bin\Debug\net9.0\Microsoft.Extensions.L
 C:\Users\guilh\Documents\workspace\Users\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\guilh\Documents\workspace\Users\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
 C:\Users\guilh\Documents\workspace\Users\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\guilh\Documents\workspace\Users\obj\Debug\net9.0\Users.sourcelink.json
